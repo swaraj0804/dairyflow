@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-50: #f0fdf5;
+  --color-brand-100: #d8f5e5;
+  --color-brand-200: #b9ebd1;
+  --color-brand-300: #8ee0b7;
+  --color-brand-400: #55c893;
+  --color-brand-500: #2aab74;
+  --color-brand-600: #19875e;
+  --color-brand-700: #135e42;
+  --color-brand-800: #0e4832;
+  --color-brand-900: #0a2f20;
+  --color-cream-50: #fbfbf9;
+  --color-cream-100: #f4f3ec;
+  --color-cream-200: #e7e4d8;
+  --color-accent-orange: #dca34f;
+  --color-accent-red: #c0392b;
+
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+}
+
+body {
+  background-color: var(--color-brand-800);
+  color: var(--color-brand-900);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overscroll-behavior-y: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  overscroll-behavior-y: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Momentum scrolling on mobile touch devices */
+.overflow-y-auto, .overflow-x-auto {
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+}
