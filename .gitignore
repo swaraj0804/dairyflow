@@ -6,3 +6,11 @@ coverage/
 *.log
 .env*
 !.env.example
+
+design.md
+architecture.md
+memory.md
+phases.md
+rules.md
+PRD.md
+
